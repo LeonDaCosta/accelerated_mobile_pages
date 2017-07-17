@@ -25,10 +25,11 @@ class Controller extends Package {
 
 	public function install() { 
 		$pkg = parent::install();
-    SinglePage::add('/dashboard/system/optimazation/amp', $pkg);
+    SinglePage::add('/dashboard/system/optimization/amp', $pkg);
 	}
 
-	
-	public function uninstall() { }
+	public function uninstall() { 
+		parent::uninstall();
+	}
 
 }

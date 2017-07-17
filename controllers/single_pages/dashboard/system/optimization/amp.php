@@ -5,9 +5,8 @@ use Concrete\Core\Page\Controller\DashboardPageController;
 
 class Amp extends DashboardPageController
 {
-
-    public function view()
-    {
-    }
-
+  public function view()
+  {
+     $this->set('title', 'Accelerated Mobile Pages'); 
+  }
 }
